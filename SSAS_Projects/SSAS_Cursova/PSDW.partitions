@@ -1,0 +1,105 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8bc5458b-3f97-45c8-ab94-99d17ff491c2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>PSDW</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Payment</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e8e5c0e5-3995-4128-8a1c-4e0d78b0444f">
+          <ID>Fact Payment</ID>
+          <Name>Fact Payment</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="829714bf-f487-492d-bb15-9dcbae612d8b">
+            <DataSourceViewID>PSDW</DataSourceViewID>
+            <TableID>dbo_Fact_Payment</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Payroll Accrual</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5b95061b-41fb-48c5-a69f-4221e1be3f82">
+          <ID>Fact Payroll Accrual</ID>
+          <Name>Fact Payroll Accrual</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0578862c-24f7-4111-b583-149f9a04a857">
+            <DataSourceViewID>PSDW</DataSourceViewID>
+            <TableID>dbo_Fact_PayrollAccrual</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Time Sheet</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="39fd7b29-149e-483f-b6d8-81490e450f46">
+          <ID>Fact Time Sheet</ID>
+          <Name>Fact Time Sheet</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e93c6951-21c4-459a-ad18-29fe00deb2bd">
+            <DataSourceViewID>PSDW</DataSourceViewID>
+            <TableID>dbo_Fact_TimeSheet</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Vacation</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="729d310a-f261-482a-82e5-5f02398aaea6">
+          <ID>Fact Vacation</ID>
+          <Name>Fact Vacation</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="096cc57f-1b16-40c6-a748-fd51e84453d0">
+            <DataSourceViewID>PSDW</DataSourceViewID>
+            <TableID>dbo_Fact_Vacation</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Vacation Balance</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8388be77-8c9b-4676-8d6f-c6441b3af7b3">
+          <ID>Fact Vacation Balance</ID>
+          <Name>Fact Vacation Balance</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dd58f9b9-18f5-4082-ba24-cc15c65e6f7c">
+            <DataSourceViewID>PSDW</DataSourceViewID>
+            <TableID>dbo_Fact_VacationBalance</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
