@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-0AM4KPA_LOCALHOST.PaymentSystem.sa1"
+  DTS:DTSID="{1F365E51-3D16-47A3-AE59-7A652FAFCF94}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-0AM4KPA\LOCALHOST;User ID=sa;Initial Catalog=PaymentSystem;Provider=SQLOLEDB.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-Cursova_SSIS-{1F365E51-3D16-47A3-AE59-7A652FAFCF94}DESKTOP-0AM4KPA\LOCALHOST.PaymentSystem.sa1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZPD5LJLJMkiIlU+3hAIyaAAAAAACAAAAAAAQZgAAAAEAACAAAABWckif5unSLula7XTJoJr5Nfw0LlkDLkWWD4PNmvKo4gAAAAAOgAAAAAIAACAAAACDY6HTU39paFvopm4LQIHnR9Zxpd5zjyKpwyJVvNCTv3AAAACjLB2JS9b5z+u58O7mGzQ56OFAh7CwTJ7LlR27nnSDJDpi4LA/7U3CQ0h3e+7VRhKUnJPlglIO/roQGRFgRw44OpgJPxBU/Ae14hQXVLJkViyvL7CKP3VijX4D/H+TNHn+WaZ/C/fCwdaXF94j0RPTQAAAAIA0//MlOVg/utw1MwANAUMGQD9DLBni/engPo8nJDMb/JzxUrdbh7i1aPtxLlCObqem+5uds9cl0VXIuWR3fVU=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
